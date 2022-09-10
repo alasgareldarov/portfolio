@@ -148,6 +148,13 @@ ul{
 }
 .banr_table {
 	display: table;
+	line-break: strict;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+}
+.banr_table_second {
+	display: table;
 	position: absolute;
 	height: 100vh;
 	width: 100%;
