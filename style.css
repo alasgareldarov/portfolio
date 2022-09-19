@@ -205,7 +205,7 @@ ul{
 	background-color: rgba(0,0,0,.3);
 	border-color: #e7e7e7;
 	position: absolute;
-	top: 6%;
+	top: 10%;
 	width: 100%;
 	z-index: 999;
 	border-radius: 0px;
@@ -1333,7 +1333,7 @@ footer{
 /* ========= tablet device ============*/
 @media(min-width:768px) and (max-width:1279px) {
     .navbar-default {
-        top: 4%;
+        top: 10%;
     }
     #banar{
         overflow: hidden;
