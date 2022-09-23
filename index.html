@@ -318,58 +318,58 @@
             </div><br><br><br>
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="brand_slide_active owl-carousel-tools">
-                        <div >
+                    <div id="owl-carousel-tools" class="brand_slide_active owl-carousel-tools" >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/html.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 20%;">HTML</p>                           
+                            <p id="html" style="color:#36EA7F;">HTML</p>                           
                         </div>                        
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/css.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 20%;">CSS</p>
+                            <p id="css" style="color:#36EA7F; ">CSS</p>
                         </div>                        
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/php.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 30%;">PHP</p>
+                            <p id="php" style="color:#36EA7F; ">PHP</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/laravel.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 5%;">LARAVEL</p>
+                            <p id="laravel" style="color:#36EA7F;">LARAVEL</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/mysql.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 20%;">MYSQL</p>
+                            <p id="mysql" style="color:#36EA7F;">MYSQL</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/mssql.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 5%;">MSSQL</p>
+                            <p id="mssql" style="color:#36EA7F;">MSSQL</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;" >
                             <img class="img-responsive" src="assests/img/brand/oracle.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 15%;">ORACLE</p>
+                            <p id="oracle" style="color:#36EA7F; ">ORACLE</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/postgre.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 2%;">POSTEGRESQL</p>
+                            <p id="postegro" style="color:#36EA7F; ">POSTEGROSQL</p>
                         </div>
-                        <div >
+                        <div  style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/vue.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 18%;">VUE JS</p>
+                            <p id="vue" style="color:#36EA7F; ">VUE JS</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/jquery.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 18%;">JQUERY</p>
+                            <p id="jquery" style="color:#36EA7F; ">JQUERY</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/ajax.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 20%;">AJAX</p>
+                            <p id="ajax" style="color:#36EA7F; ">AJAX</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;" >
                             <img class="img-responsive" src="assests/img/brand/javascript.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 5%;">JAVASCRIPT</p>
+                            <p id="javascript" style="color:#36EA7F; ">JAVASCRIPT</p>
                         </div>
-                        <div >
+                        <div style="margin:auto;">
                             <img class="img-responsive" src="assests/img/brand/bootstrap.png" alt="">
-                            <p style="color:#36EA7F; margin-left: 5%;">BOOTSTRAP</p>
+                            <p id="bootstrap" style="color:#36EA7F; ">BOOTSTRAP</p>
                         </div>
                     </div>
                 </div>
@@ -588,6 +588,9 @@ anime.timeline({loop: true})
 
 
 <style>
+
+
+
 .ml2 {
   font-weight: 900;
   font-size: 3.5em;
@@ -599,22 +602,67 @@ anime.timeline({loop: true})
 }
 
 
-@media only screen and (min-width: 375px) and (max-width: 425px)  {
+@media only screen and (min-width: 300px) and (max-width: 425px)  {
+
+    #html {margin-left: 8%; }
+    #css {margin-left: 10%; }
+    #javascript {margin-left: 3%; }
+    #bootstrap {margin-left: 5%; }
+    #php {margin-left: 15%; }
+    #laravel {margin-left: 5%; }
+    #mysql {margin-left: 8%; }
+    #mssql {margin-left: 5%; }
+    #oracle {margin-left: 7%; }
+    #jquery {margin-left: 8%; }
+    #ajax {margin-left: 8%; }
+    #vue {margin-left: 8%; }
+
 .ml2{
 font-size:18px !important;
 }
+
+#owl-carousel-tools{
+    padding-left: 30% !important;
 }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 600px)  {
+    #owl-carousel-tools{
+    padding-left: 40% !important;
+}
+}
+
+@media only screen and (min-width: 600px)  {
+    #html {margin-left: 20%; }
+    #css {margin-left: 20%; }
+    #css {margin-left: 20%; }
+    #javascript {margin-left: 7%; }
+    #bootstrap {margin-left: 5%; }
+    #php {margin-left: 30%; }
+    #laravel {margin-left: 5%; }
+    #mysql {margin-left: 20%; }
+    #mssql {margin-left: 5%; }
+    #oracle {margin-left: 12%; }
+    #jquery {margin-left: 20%; }
+    #ajax {margin-left: 20%; }
+    #vue {margin-left: 18%; }
+    #owl-carousel-tools {padding-left: 5%;}
+}
+
 
 @media only screen and (min-width: 425px) and (max-width: 768px)  {
 .ml2{
 font-size:20px !important;
 }
+
 }
 
 @media only screen and (min-width: 425px) and (max-width: 1024px)  {
 .ml2{
 font-size:36px !important;
 }
+
 }
 
 
@@ -622,6 +670,7 @@ font-size:36px !important;
 .ml2{
 font-size:45px !important;
 }
+
 }
 </style>
 		
