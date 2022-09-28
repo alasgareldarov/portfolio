@@ -3873,8 +3873,7 @@ textarea.input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn:active:focus,
-.btn:focus {
-	outline: 5px auto -webkit-focus-ring-color;
+.btn:focus {	
 	outline-offset: -2px
 }
 
@@ -4445,8 +4444,8 @@ tbody.collapse.in {
 	z-index: 1000;
 	display: none;
 	float: left;
-	min-width: 88px;
-	padding: 5px 0;
+	min-width: 65px;
+	padding: 1px 0;
 	margin: 2px 0 0;
 	font-size: 14px;
 	text-align: left;
@@ -4475,7 +4474,7 @@ tbody.collapse.in {
 
 .dropdown-menu>li>a {
 	display: block;
-	padding: 3px 20px;
+	padding: 3px 6px;
 	clear: both;
 	font-weight: 400;
 	line-height: 1.42857143;
