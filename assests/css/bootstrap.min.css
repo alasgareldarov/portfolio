@@ -5414,7 +5414,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 		position: static;
 		float: none;
 		width: auto;
-		margin-top: 0;
+		margin-top: 12px;
 		background-color: transparent;
 		border: 0;
 		-webkit-box-shadow: none;
@@ -5423,7 +5423,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 	.navbar-nav .open .dropdown-menu .dropdown-header,
 	.navbar-nav .open .dropdown-menu>li>a {
-		padding: 5px 15px 5px 25px
+		padding: 4px 12px 5px 10px
 	}
 
 	.navbar-nav .open .dropdown-menu>li>a {
