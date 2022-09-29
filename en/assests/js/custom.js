@@ -135,7 +135,9 @@ var appendContent=function(){
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/tabloshop.png);'>     </div><h3 class='aDemo__title'>tabloshop az</h3></a></div>");						
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/theatre.png);'>     </div><h3 class='aDemo__title'>skhidopera opera site</h3></a></div>");	    
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/unimetal.png);'>     </div><h3 class='aDemo__title'>Unimetal metal products</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/glogistics.png);'>     </div><h3 class='aDemo__title'>grand logistics</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/glogistics.png);'>     </div><h3 class='aDemo__title'>grand logistics</h3></a></div>");
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/futurra.png);'>     </div><h3 class='aDemo__title'>Futurra Group –mobile and web projects</h3></a></div>");					
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/support.png);'>     </div><h3 class='aDemo__title'>Support.ua equipment repair</h3></a></div>");					
         count++;
     }
     

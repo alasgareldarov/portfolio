@@ -133,6 +133,8 @@ var appendContent=function(){
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/theatre.png);'>     </div><h3 class='aDemo__title'>skhidopera opera saytı</h3></a></div>");						
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/unimetal.png);'>     </div><h3 class='aDemo__title'>Unimetal metal məmulatları</h3></a></div>");						
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/glogistics.png);'>     </div><h3 class='aDemo__title'>grand logistika</h3></a></div>");					
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/futurra.png);'>     </div><h3 class='aDemo__title'>Futurra Group – mobil və veb layihələr</h3></a></div>");					
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/support.png);'>     </div><h3 class='aDemo__title'>Support.ua avadanlıqların təmiri </h3></a></div>");					
         count++;
     }
     
