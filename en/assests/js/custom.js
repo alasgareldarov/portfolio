@@ -121,16 +121,21 @@ $(document).ready(function(){
 var count = 0; 
 var appendContent=function(){               
     if(count < 1) {
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/shoping.jpg);'>      </div><h3 class='aDemo__title'>zərgərlik onlayn mağaza</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/otos.png);'>         </div><h3 class='aDemo__title'>otos avtomobil saytı</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/brendfoni.png);'>    </div><h3 class='aDemo__title'>brendfoni onlayn mağaza</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/postex.jpeg);'>      </div><h3 class='aDemo__title'>postex sürətli poçt xidməti</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/dubrar.png);'>       </div><h3 class='aDemo__title'>dubrar su</h3></a></div>");						
+          
+        
+        
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/shoping.jpg);'>      </div><h3 class='aDemo__title'>JEWELRY ONLINE SHOP</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/otos.png);'>         </div><h3 class='aDemo__title'>OTOS AUTOMOBILE WEBSITE</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/brendfoni.png);'>    </div><h3 class='aDemo__title'>BRENDFONI ONLINE SHOP</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/postex.jpeg);'>      </div><h3 class='aDemo__title'>POSTEX FAST POST SERVICE</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/dubrar.png);'>       </div><h3 class='aDemo__title'>DUBRAR WATER</h3></a></div>");						
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/bvblogic.png);'>     </div><h3 class='aDemo__title'>bvblogic</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/tourismboard.png);'> </div><h3 class='aDemo__title'>tourismboard turizim</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/hostimul.png);'>     </div><h3 class='aDemo__title'>hostimul hosting fiziki serverlər</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/tourismboard.png);'> </div><h3 class='aDemo__title'>tourismboard tourism</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/hostimul.png);'>     </div><h3 class='aDemo__title'>hostimul hosting physical servers</h3></a></div>");						
         $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/tabloshop.png);'>     </div><h3 class='aDemo__title'>tabloshop az</h3></a></div>");						
-        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/theatre.png);'>     </div><h3 class='aDemo__title'>skhidopera opera saytı</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/theatre.png);'>     </div><h3 class='aDemo__title'>skhidopera opera site</h3></a></div>");	    
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/unimetal.png);'>     </div><h3 class='aDemo__title'>Unimetal metal products</h3></a></div>");						
+        $('#loadmore').append("<div class='col-md-6 demo__col'><a class='aDemo' ><div class='aDemo__page boxShadow' style='background-image: url(assets/img/glogistics.png);'>     </div><h3 class='aDemo__title'>grand logistics</h3></a></div>");						
         count++;
     }
     
