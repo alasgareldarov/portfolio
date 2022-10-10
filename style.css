@@ -991,8 +991,8 @@ ul{
 	border: 1px solid #e5e5e5;
 }
 .email{
-	width: 48%;
-	float: right;
+	width: 96%;
+	float: left;
 	display: block;
     margin-bottom: 10px;
     padding: 8px 15px;
@@ -1015,17 +1015,18 @@ ul{
 	border: 1px solid #e5e5e5;
 }
 .message{
-	width: 100%;
+	width: 96%;
 	display: block;
     margin-bottom: 10px;
     padding: 8px 15px;
 	border: 1px solid #e5e5e5;
+    height: 150px;
 }
 .contact_form form button{
     background: #36EA7F;
     border: 1px solid #36EA7F;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 20%;
     margin: 0 auto;
     display: table;
     text-transform: capitalize;
